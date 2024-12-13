@@ -9,3 +9,6 @@ app = application
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles_build", 'static')
 
 STATIC_ROOT = BASE_DIR/"staticfiles_build"/'static'
+
+
+# staticfiles_build must not change both in the settings.py and vercel.json
